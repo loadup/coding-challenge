@@ -10,22 +10,7 @@ When you finish the exercises below, send this file back to engineering@goloadup
  * GitHub:
  * Phone:
 
-## QUESTION 1
-
-This code is broken. Why?
-
-```
-(() => {
-  foo();
-  bar();
-  var foo = () => console.log("THIS WON'T RUN");
-  function bar() {
-    console.log("This will run");
-  }
-})();
-```
-
-## QUESTION 2
+## Project
 
 Use [Create React App](https://github.com/facebook/create-react-app) to write a small single page web application with [Redux](https://redux.js.org/). 
 
