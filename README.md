@@ -27,20 +27,13 @@ This code is broken. Why?
 
 ## QUESTION 2
 
-Write a function (isMatch) that tests brackets and braces match, and are nested correctly.
+Use [Create React App](https://github.com/facebook/create-react-app) to write a small single page web application with [Redux](https://redux.js.org/). 
 
-For example:
- 
-Given a string "{{[()]}}", the brackets all have a match and are nested in the correct order. Return true.
+### Requirements
 
-Given a string "[(}}", the brackets do not all have matches and are not nested correctly. Return false.
+* Has a single button in the center called "Current Weather.
+* Upon click, it uses the built-in browser [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) to get the user's location
+* The application then grabs the current weather for that location from [OpenWeatherMap](https://openweathermap.org/current) and displays it on the page
 
-```
-isMatch(bracketString) {
-	// Your code here
-}
-```
-
-
-
+Styling is not the primary goal here, but it's not a large UI so try to make it look decent. We're primarily looking at your ability to write clean organized code, interact with external APIs, and handle asynchronous JavaScript. Your commit history should clearly show your progression through the application. 
 
