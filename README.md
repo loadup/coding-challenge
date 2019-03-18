@@ -12,7 +12,9 @@ When you finish the exercises below, send a link to your completed GitHub Repo t
 
 ## Project
 
-Use [Create React App](https://github.com/facebook/create-react-app) to write a small single page web application with [Redux](https://redux.js.org/). 
+Use [Create React App](https://github.com/facebook/create-react-app) to write a small single page web application with [Redux](https://redux.js.org/) or the Context API. We know there is not a lot of state in this application, but rigging up a state management library gives us a good sense of your style.
+
+If you are not a fan of React and/or prefer an alternative web framework. No problem! We use React and enjoy it, but you don't have to be right now. Feel free to use Vue, Angular, etc or even plain JS as long as you accomplish the requirements below. However, if you do use React, use Create React App with some state management library.
 
 ### Requirements
 
