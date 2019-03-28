@@ -18,7 +18,7 @@ If you are not a fan of React and/or prefer an alternative web framework. No pro
 
 ### Requirements
 
-* Has a single button in the center called "Current Weather
+* Has a single button in the center called "Current Weather"
 * Upon click, it uses the built-in browser [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) to get the user's location
 * The application then grabs the current weather for that location from [OpenWeatherMap](https://openweathermap.org/current) and displays it on the page
 * Deploy your project somewhere [Surge.sh](https://surge.sh/) is a good easy solution
