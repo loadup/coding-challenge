@@ -1,34 +1,27 @@
 # LoadUp Engineering Coding Challenge
 
-Welcome to the LoadUp coding test! This test assignment serves a few purposes.
-It let's you show-off your technical knowledge, your stylistic sensibilities, and
-your ability to wrangle with an existing codebase. On top of that, it also gives you
-a fun opportunity to hack on a new feature!
+Thanks for applying! 
 
-A few things to keep in mind before you begin:
+When you finish the exercises below, send a link to your completed GitHub Repo to engineering@goloadup.com to finish your application.
 
-- While this repo is a Rails app, it on an older version than the LoadUp production
-  app (which is kept quite up-to-date). This is in part because this repository is
-  forked from a [RealWorldApp](https://github.com/gothinkster/realworld) standard repo.
-  This also means that, if Rails isn't something you know super well, you can complete
-  this challenge by using on of the other backend repos (Java Spring, Node Express,
-  Laravel, Elixir Phoenix, etc). We do recommend that you do use the Rails version if
-  you know Rails already, but don't feel trapped if you Node/Java/whatever that much
-  better.
+ * First Name:
+ * Last Name:
+ * Email:
+ * GitHub:
+ * Phone:
 
-- Next, treat this assignment as if you are already on the job and adding this feature
-  to a production app, whatever that means to you. This should reflect the kind of work,
-  processes, and the level-of-quality that you would plan on delivering at LoadUp.
+## Project
 
-- Lastly, have fun with it! If you have good ideas for improving the feature beyond
-  this description, go for it!
+Use [Create React App](https://github.com/facebook/create-react-app) to write a small single page web application with [Redux](https://redux.js.org/) or the Context API. We know there is not a lot of state in this application, but rigging up a state management library gives us a good sense of your style.
 
-Happy Hacking!
+If you are not a fan of React and/or prefer an alternative web framework. No problem! We use React and enjoy it, but you don't have to be right now. Feel free to use Vue, Angular, etc or even plain JS as long as you accomplish the requirements below. However, if you do use React, use Create React App with some state management library.
 
-— The LoadUp Engineering Team
+### Requirements
 
-## Details
--- Description of the actual feature to build here
+* Has a single button in the center called "Current Weather"
+* Upon click, it uses the built-in browser [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) to get the user's location
+* The application then grabs the current weather for that location from [OpenWeatherMap](https://openweathermap.org/current) and displays it on the page
+* Deploy your project somewhere [Surge.sh](https://surge.sh/) is a good easy solution
 
-## Running this repo ##
-This repo is as simple to run as `bin/rails s`
+We're primarily looking at your ability to write clean organized code, interact with external APIs, and handle asynchronous JavaScript. So while the project isn't large, we want you to send us what you think is high quality code. Your commit history should clearly show your progression through the application. 
+
