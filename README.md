@@ -28,12 +28,7 @@ Happy Hacking!
 — The LoadUp Engineering Team
 
 ## Details
-So here's the challenge. Grab one of the RealWorldApp examples and add a feature to it. We have some
-suggested feature ideas. If you have others, feel free to propose them!
+-- Description of the actual feature to build here
 
-* Add password reset to the project
-* Add the ability to add and display an image alongside a post
-* Add the ability to add a private post that only select users can view
-
-Make sure to deploy your project somewhere so we can see it. Heroku is totally fine for this
-if that's the quickest way for you. 
+## Running this repo ##
+This repo is as simple to run as `bin/rails s`
