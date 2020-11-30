@@ -2,7 +2,7 @@
 
 Thanks for applying! 
 
-When you finish the exercises below, send a link to your completed GitHub Repo to engineering@goloadup.com to finish your application.
+When you finish the exercises below, send a link to your completed GitHub Repo to rstrickland@goloadup.com to finish your application.
 
  * First Name:
  * Last Name:
