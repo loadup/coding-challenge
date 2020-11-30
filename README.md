@@ -12,16 +12,20 @@ When you finish the exercises below, send a link to your completed GitHub Repo t
 
 ## Project
 
-Use [Create React App](https://github.com/facebook/create-react-app) to write a small single page web application with [Redux](https://redux.js.org/) or the Context API. We know there is not a lot of state in this application, but rigging up a state management library gives us a good sense of your style.
-
-If you are not a fan of React and/or prefer an alternative web framework. No problem! We use React and enjoy it, but you don't have to be right now. Feel free to use Vue, Angular, etc or even plain JS as long as you accomplish the requirements below. However, if you do use React, use Create React App with some state management library.
+Write a small app to display weather data, basically a simplified [weather.com](https://www.weather.com), that takes an input from the user about their location and displays local weather in that area.
 
 ### Requirements
 
 * Has a single button in the center called "Current Weather"
 * Upon click, it uses the built-in browser [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) to get the user's location
 * The application then grabs the current weather for that location from [OpenWeatherMap](https://openweathermap.org/current) and displays it on the page
-* Deploy your project somewhere [Surge.sh](https://surge.sh/) is a good easy solution
+* Deploy your project somewhere so it's accessible from the web. Heroku or a static host if you're going that route are perfectly fine.
+
+### Tools 
+
+You can use whatever tools you're familiar with, meaning you can use any backend language you'd like. You can also choose to write a separate front end or server render if you prefer. To give you some context, our stack is a Rails server rendered monolith where we use React and StimulusJS where needed. If you know those technologies, we would recommend trying to use them for this exercise.
 
 We're primarily looking at your ability to write clean organized code, interact with external APIs, and handle asynchronous JavaScript. So while the project isn't large, we want you to send us what you think is high quality code. Your commit history should clearly show your progression through the application. 
+
+You can also choose to add features if you want; however, we'd recommend keeping the feature set small and instead focusing on quality of the features you do include.
 
